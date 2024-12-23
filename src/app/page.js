@@ -1,9 +1,10 @@
 import Image from "next/image";
-import Sidebar from "./components/ui/Sidebar.jsx";
+
+import Homes from "./components/ui/Homes.jsx";
 export default function Home({ Component, pageProps }) {
   return (
     <div className="flex">
-      <Sidebar />
+      <Homes />
       {/* <main className="flex-grow">
         <Component {...pageProps} />
       </main> */}

@@ -24,7 +24,7 @@ const Sidebar = () => {
           animate={{ opacity: isOpen ? 1 : 0 }}
           className="text-lg font-bold"
         >
-          Acet Labs
+        CLASSMATE
         </motion.div>
       </div>
 
@@ -45,10 +45,11 @@ const Sidebar = () => {
         />
         {isOpen && <span className="font-medium">Manu Arora</span>}
       </div>
+   
     </motion.div>
   );
 };
-
+// {isOpen && <span className="font-medium">Manu Arora</span>}
 const SidebarItem = ({ href, label, icon, isOpen }) => (
   <Link href={href}>
     <motion.div
